@@ -1,0 +1,54 @@
+[I 170922 02:36:45 command:139] Visit me at http://localhost:5555
+[I 170922 02:36:45 command:144] Broker: amqp://celeryuser:**@66.154.105.251:5672/celeryvhost
+[I 170922 02:36:45 command:147] Registered tasks: 
+    [u'celery.accumulate',
+     u'celery.backend_cleanup',
+     u'celery.chain',
+     u'celery.chord',
+     u'celery.chord_unlock',
+     u'celery.chunks',
+     u'celery.group',
+     u'celery.map',
+     u'celery.starmap',
+     u'tasks.download_task',
+     u'tasks.update_blog',
+     u'tasks.update_database',
+     u'tasks.upload_task']
+[I 170922 02:36:47 mixins:224] Connected to amqp://celeryuser:**@66.154.105.251:5672/celeryvhost
+[E 170922 02:37:03 broker:82] RabbitMQ management API call failed: HTTP 401: Unauthorized
+[E 170922 02:37:05 broker:82] RabbitMQ management API call failed: HTTP 401: Unauthorized
+[W 170922 11:48:15 state:112] Substantial drift from celery@www.closeddays.com may mean clocks are out of sync.  Current drift is
+    28 seconds.  [orig: 2017-09-22 11:47:47.089439 recv: 2017-09-22 11:48:15.861243]
+    
+[E 170922 16:01:14 events:123] Failed to capture events: '[Errno 110] Connection timed out', trying again in 1 seconds.
+[I 170922 16:28:30 mixins:224] Connected to amqp://celeryuser:**@66.154.105.251:5672/celeryvhost
+[E 170922 16:28:30 events:123] Failed to capture events: '[Errno 110] Connection timed out', trying again in 1 seconds.
+[I 170922 16:28:32 mixins:224] Connected to amqp://celeryuser:**@66.154.105.251:5672/celeryvhost
+[E 170925 04:33:16 events:123] Failed to capture events: '[Errno 110] Connection timed out', trying again in 1 seconds.
+[I 170925 05:12:02 mixins:224] Connected to amqp://celeryuser:**@66.154.105.251:5672/celeryvhost
+[E 170925 05:12:02 events:123] Failed to capture events: '[Errno 110] Connection timed out', trying again in 1 seconds.
+[I 170925 05:12:04 mixins:224] Connected to amqp://celeryuser:**@66.154.105.251:5672/celeryvhost
+[E 170925 05:42:29 events:123] Failed to capture events: '[Errno 110] Connection timed out', trying again in 1 seconds.
+[I 170925 06:23:40 mixins:224] Connected to amqp://celeryuser:**@66.154.105.251:5672/celeryvhost
+[E 170925 06:23:40 events:123] Failed to capture events: '[Errno 110] Connection timed out', trying again in 1 seconds.
+[I 170925 06:23:41 mixins:224] Connected to amqp://celeryuser:**@66.154.105.251:5672/celeryvhost
+[E 171002 01:10:45 events:123] Failed to capture events: '[Errno 110] Connection timed out', trying again in 1 seconds.
+[I 171002 01:31:57 mixins:224] Connected to amqp://celeryuser:**@66.154.105.251:5672/celeryvhost
+[E 171002 01:31:57 events:123] Failed to capture events: '[Errno 110] Connection timed out', trying again in 1 seconds.
+[I 171002 01:31:59 mixins:224] Connected to amqp://celeryuser:**@66.154.105.251:5672/celeryvhost
+[E 171008 21:55:33 events:123] Failed to capture events: '[Errno 110] Connection timed out', trying again in 1 seconds.
+[I 171008 22:24:27 mixins:224] Connected to amqp://celeryuser:**@66.154.105.251:5672/celeryvhost
+[E 171008 22:24:28 events:123] Failed to capture events: '[Errno 110] Connection timed out', trying again in 1 seconds.
+[I 171008 22:24:31 mixins:224] Connected to amqp://celeryuser:**@66.154.105.251:5672/celeryvhost
+[E 171025 16:44:32 events:123] Failed to capture events: '[Errno 110] Connection timed out', trying again in 1 seconds.
+[I 171025 16:48:29 mixins:224] Connected to amqp://celeryuser:**@66.154.105.251:5672/celeryvhost
+[E 171025 16:48:29 events:123] Failed to capture events: '[Errno 110] Connection timed out', trying again in 1 seconds.
+[I 171025 16:48:31 mixins:224] Connected to amqp://celeryuser:**@66.154.105.251:5672/celeryvhost
+[E 171222 16:55:41 events:123] Failed to capture events: '[Errno 110] Connection timed out', trying again in 1 seconds.
+[I 171222 16:55:50 mixins:224] Connected to amqp://celeryuser:**@66.154.105.251:5672/celeryvhost
+[E 171222 16:55:50 events:123] Failed to capture events: '[Errno 110] Connection timed out', trying again in 1 seconds.
+[I 171222 16:55:51 mixins:224] Connected to amqp://celeryuser:**@66.154.105.251:5672/celeryvhost
+[E 171228 17:29:41 events:123] Failed to capture events: '[Errno 110] Connection timed out', trying again in 1 seconds.
+[I 171228 17:59:57 mixins:224] Connected to amqp://celeryuser:**@66.154.105.251:5672/celeryvhost
+[E 171228 17:59:57 events:123] Failed to capture events: '[Errno 110] Connection timed out', trying again in 1 seconds.
+[I 171228 17:59:58 mixins:224] Connected to amqp://celeryuser:**@66.154.105.251:5672/celeryvhost
